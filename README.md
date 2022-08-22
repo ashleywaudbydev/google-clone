@@ -36,6 +36,7 @@ JAVASCRIPT - I used to provide all the functionalit to the project for instence 
 
 
 # What i learned
+I learned what goes into dark and light mode swuitches and how to use the window.location method.
 
 
 
