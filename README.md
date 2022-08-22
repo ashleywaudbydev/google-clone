@@ -6,14 +6,21 @@
 
 
 #Table of contents
+  overview
+  link to live project
+  my process
+  what i learned
+  usefull resources
 
-The challenge Screenshot Links My process Built with What I learned Continued development Useful resources Author Acknowledgments Note: Delete this note and update the table of contents based on what sections you keep.
 
-Overview The challenge Users should be able to:
+
+# Overview The challenge Users should be able to:
 
 View the optimal layout depending on their device's screen size See hover states for interactive elements
 
+
 # Link to Live Project 
+https://00awaudby.github.io/google-clone/
 
 
 
@@ -24,7 +31,8 @@ View the optimal layout depending on their device's screen size See hover states
 
 
 
+
 # Useful resources 
 
-The facebook Group that i run for beginner web developers where a big help with pointers and feedback.
+stack overflow and the notes i made from my learnibngs where a massive help on this project.
 
