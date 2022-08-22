@@ -1,0 +1,355 @@
+/*----------Global styles----------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+   
+    line-height: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    padding-top: 0;
+   
+   
+}
+
+/*----------Navigation styles------------*/
+
+.flex-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    gap: 2rem;
+    padding: 1rem;
+    
+    
+    
+    margin-bottom: 5.5rem;
+}
+
+.left-nav, .right-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.switch{
+    position: relative;
+    margin-top: 8px;
+    width: 65px;
+    height: 25px;
+ 
+}
+
+.slider{
+    position: absolute;
+    cursor: pointer;
+   
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ccc;
+    -webkit-transition: 0.4s;
+    
+    transition: 0.4s;
+}
+
+
+.slider:before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 3px;
+    background: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider{
+    background-color: #2196f3;
+
+}
+
+input:checked + .slider:before{
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round{
+    border-radius: 6px;
+    
+}
+
+.slider.round:before{
+    border-radius: 50px;
+}
+.prof{
+    color: white;
+    background: black;
+    border-radius: 1rem;
+    height: 32px;
+    text-align: center;
+    padding-top: 0.3rem;
+    width: 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    
+    text-align: center;
+   
+    cursor: pointer;
+}
+
+.prof:hover{
+    background-color: rgb(244, 239, 239);
+    border-radius: 1rem;
+    color: black;
+    
+   
+}
+
+
+
+/*----------Main content styles----------*/
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 13.5rem;
+}
+
+.search-bar{
+    width: 90%;
+    
+    border: none;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    border: 2px solid rgb(242, 241, 241);
+  
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fa-solid{
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.fa-microphone{
+    color: rgb(71, 71, 240);
+}
+
+.search-bar:hover{
+    box-shadow: 1px 1px 1px 1px rgb(237, 236, 236);
+}
+
+.input{
+    width: 80%;
+    border: none;
+    height: 20px;
+    
+}
+
+
+.input:focus{
+    outline: none;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+img{
+    width: 80%;
+}
+
+.fa-share-nodes{
+    font-size: 1.5rem;
+    color: rgb(210, 210, 210);
+}
+
+.fa-share-nodes:hover{
+    
+    color: rgb(140, 140, 140);
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn{
+    padding: 0.8rem;
+    border: none;
+    background-color: rgb(244, 249, 249);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+   
+    border: 1px solid rgb(192, 192, 192);
+}
+
+
+/*Footer styles*/
+
+.main-footer{
+    background: rgb(243, 243, 243);
+}
+.country{
+    padding: 1rem;
+}
+
+.carbon{
+    text-decoration: none;
+}
+
+.carbon:hover{
+    text-decoration: underline;
+}
+
+
+.secondary-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-top:2px solid  rgb(232, 231, 231);;
+    padding: 2rem;
+   
+}
+
+.footer-list{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.fa-envira{
+    color: rgb(75, 194, 75);
+}
+
+
+
+
+/*the classes that are used in the dark mode switch*/
+
+.darkMode{
+    background-Color:rgb(36, 35, 35);
+    color: lightgrey
+
+    
+
+}
+
+.darkMode #input{
+    background-Color:rgb(36, 35, 35);
+    color: white;
+   
+}
+
+.darkMode .search-bar{
+    border: 1px solid rgb(95, 95, 95);
+}
+
+.darkMode .main-footer{
+    background-Color:rgb(36, 35, 35);
+    color: lightgrey
+}
+
+.darkMode  li a{
+    color: lightgrey;
+}
+
+.darkMode .btn{
+    color: lightgrey;
+    background-Color:rgb(53, 52, 52);
+
+}
+.darkMode .carbon{
+    color: white;
+}
+
+.carbon{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+@media(min-width:600px){
+    .search-bar{
+      
+        width: 600px;
+    }
+
+    img{
+        width: 500px;
+    }
+
+    .secondary-footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-footer{
+        margin-top: 4rem;
+        
+    }
+}
+
