@@ -45,3 +45,11 @@ I learned what goes into dark and light mode swuitches and how to use the window
 
 stack overflow and the notes i made from my learnibngs where a massive help on this project.
 
+
+
+
+## Author
+
+- Github - [00awaudby]https://github.com/00awaudby
+- Frontend Mentor - [@00awaudby] https://www.frontendmentor.io/home
+
